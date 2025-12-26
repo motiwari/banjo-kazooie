@@ -112,7 +112,7 @@ docker build --platform linux/amd64 -t banjo-kazooie .
 
 ### 2. Add baserom
 
-Follow the same instructions as Step 3 above in "Local (Linux)".
+Follow the same instructions as Step 2 above in "Local (Linux)".
 
 ### 3. Run the Docker container
 
@@ -128,7 +128,7 @@ docker run --platform linux/amd64 -it --rm -v $(pwd):/banjo banjo-kazooie
 
 ### 4. Build
 
-Follow the same instructions as Step 4 above in "Local (Linux)".
+Follow the same instructions as Step 3 above in "Local (Linux)".
 
 To exit Docker, simply type `exit`.
 
