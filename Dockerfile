@@ -42,4 +42,4 @@ RUN conda run -n bk python3 -m pip install -r requirements.txt
 RUN echo "conda activate bk" >> ~/.bashrc
 
 WORKDIR /banjo
-ENTRYPOINT ["/bin/bash", "-c"]
+ENTRYPOINT ["/bin/bash"]
